@@ -127,7 +127,7 @@ export default function Navbar({ visible, setVisible }: NavbarProps) {
                     <div className="flex justify-between items-center">
                         <div>
                             <Link href='/'>
-                                <Image src='/logo-marini.png' width={150} height={50} alt="Logo Marini" />
+                                <Image quality={100} src='/logo-marini.png' width={150} height={50} alt="Logo Marini" />
                             </Link>
                         </div>
 
@@ -206,7 +206,7 @@ export default function Navbar({ visible, setVisible }: NavbarProps) {
                 <div className="grid md:grid-cols-2">
                     <div className="relative">
                         <div className="absolute inset-0">
-                            <Image src="/bg-modal.png" alt='Background do Modal' layout="fill" objectFit="cover" quality={100} />
+                            <Image placeholder="blur" src="/bg-modal.png" blurDataURL="/bg-modal-blur.webp" alt='Background do Modal' layout="fill" objectFit="cover" quality={100} />
                         </div>
                         <div className="relative z-20 p-4 sm:p-6 md:p-10 lg:p-20">
                             <h2 className="text-white text-2xl md:text-4xl md:max-w-[16rem] font-medium leading-10 md:mb-10">Informações de contato</h2>

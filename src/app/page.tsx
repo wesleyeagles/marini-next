@@ -6,7 +6,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "primereact/button";
 import { Fragment, useState } from "react";
-import { BiRightArrow, BiSolidRightArrow } from "react-icons/bi";
 import { ImLeaf } from "react-icons/im";
 
 export default function Home() {
@@ -46,13 +45,13 @@ export default function Home() {
               <HomeIcon className="w-8 h-8" color="#5686BF" />
             </div>
             <div className="relative w-[160px] h-[320px] sm:w-[234px] xl:w-[254px] sm:h-[400px] xl:h-[449px]">
-              <Image fill src='/foto-de-pessoas-sorridentes-e-felizes.png' alt='Foto de pessoas sorridentes e felizes' />
+              <Image placeholder="blur" fill src='/foto-de-pessoas-sorridentes-e-felizes.png' blurDataURL="/foto-de-pessoas-sorridentes-e-felizes-blur.webp" alt='Foto de pessoas sorridentes e felizes' />
             </div>
           </div>
 
           <div>
             <div className="relative w-[160px] h-[341px] sm:w-[260px] xl:w-[344px] sm:h-[441px] xl:h-[521px]">
-              <Image fill objectFit="cover" src='/predio-marini-vista-da-frente.png' alt='Prédio do Terrace Residence vista da frente' />
+              <Image placeholder="blur" fill objectFit="cover" src='/predio-marini-vista-da-frente.png' blurDataURL="/predio-marini-vista-da-frente-blur.webp" alt='Prédio do Terrace Residence vista da frente' />
               <div className="absolute right-2 sm:right-4 -bottom-12 bg-white p-2 sm:p-4 shadow-xl rounded-lg flex flex-col items-center gap-2">
                 <div className="p-1 bg-[#5686BF30] w-max rounded-lg">
                   <ChartBarSquareIcon className="w-8 h-8" color="#5686BF" />
@@ -100,7 +99,7 @@ export default function Home() {
       <div className="grid grid-cols-1 grid-rows-2 sm:grid-cols-2 sm:grid-rows-1">
         <div className="relative">
           <div className="absolute sm:col-span-1 order-1 w-full h-[380px] sm:h-[580px]">
-            <Image src='/visao-da-area-interna-do-apartamento-com-vista-panoramica.png' alt='Visão da area interna do apartamento com vista panoramica' fill />
+            <Image placeholder="blur" src='/visao-da-area-interna-do-apartamento-com-vista-panoramica.png' blurDataURL="/visao-da-area-interna-do-apartamento-com-vista-panoramica-blur.webp" alt='Visão da area interna do apartamento com vista panoramica' fill />
           </div>
           <div className="bg-white absolute bottom-0 right-0 flex flex-col gap-3 sm:px-2 py-3 sm:py-6 items-center">
             <div className="p-2 bg-[#5686BF30] w-max rounded-lg">
@@ -127,7 +126,7 @@ export default function Home() {
             <div className="hidden lg:grid grid-cols-3 grid-rows-1">
                 <Link href="#" className="relative">
                     <div className="absolute w-full h-[560px] transition-all peer hover:scale-105 hover:z-10">
-                    <Image src='/foto-do-predio-lancamento-da-marini.png' alt='Foto do prédio lançamento da Marini' fill />
+                    <Image placeholder="blur" src='/foto-do-predio-lancamento-da-marini.png' blurDataURL="/foto-do-predio-lancamento-da-marini-blur.webp"  alt='Foto do prédio lançamento da Marini' fill />
                     </div>
                     <div className="absolute bg-[#252525] flex justify-center items-center inset-0 z-10 px-10 py-6 max-w-max mx-auto transition-opacity peer-hover:opacity-0">
                        <span className="text-white uppercase">O último lançamento</span>
@@ -135,7 +134,7 @@ export default function Home() {
                 </Link>
                 <Link href="#" className="relative">
                     <div className="absolute w-full h-[560px] transition-all peer hover:scale-105 hover:z-10">
-                    <Image src='/foto-do-predio-em-andamento-da-marini.png' alt='Foto do prédio em andamento da Marini' fill />
+                    <Image placeholder="blur" src='/foto-do-predio-em-andamento-da-marini.png' blurDataURL="/foto-do-predio-em-andamento-da-marini-blur.webp" alt='Foto do prédio em andamento da Marini' fill />
                     </div>
                     <div className="absolute bg-[#252525] flex justify-center items-center inset-0 z-10 px-10 py-6 max-w-max mx-auto transition-opacity peer-hover:opacity-0">
                        <span className="text-white uppercase">Em andamento</span>
@@ -143,7 +142,7 @@ export default function Home() {
                 </Link>
                 <Link href="#" className="relative">
                     <div className="absolute w-full h-[560px] transition-all peer hover:scale-105 hover:z-10">
-                    <Image src='/foto-de-uma-das-casas-de-obras-entregues.png' alt='Foto de uma das casas de obras entregues' fill />
+                    <Image placeholder="blur" src='/foto-de-uma-das-casas-de-obras-entregues.png' blurDataURL="/foto-de-uma-das-casas-de-obras-entregues-blur.webp" alt='Foto de uma das casas de obras entregues' fill />
                     </div>
                     <div className="absolute bg-[#252525] flex justify-center items-center inset-0 z-10 px-10 py-6 max-w-max mx-auto transition-opacity peer-hover:opacity-0">
                        <span className="text-white uppercase">Obras Entregues</span>

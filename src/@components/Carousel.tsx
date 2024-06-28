@@ -13,7 +13,7 @@ export default function CustomCarousel() {
             id: 1, content:
                 <div className="relative">
                     <div className="absolute inset-0">
-                        <Image src="/bg-modal-institucional.png" alt='Background Institucional' layout="fill" objectFit="cover" quality={100} />
+                        <Image placeholder="blur" src="/bg-modal-institucional.png" blurDataURL="/bg-modal-institucional-blur.webp" alt='Background Institucional' layout="fill" objectFit="cover" quality={100} />
                     </div>
                     <div className="sm:max-w-7xl mx-auto relative z-20 py-32 sm:py-48 lg:py-56 xl:py-[229px] px-10 sm:px-20 xl:px-10">
                         <h1 className="sm:max-w-[30rem] text-white text-3xl sm:text-5xl lg:text-[56px] font-medium leading-[1.2]">Especialistas em construções de alta qualidade</h1>
@@ -25,7 +25,7 @@ export default function CustomCarousel() {
         {
             id: 2, content: <div className="relative">
                 <div className="absolute inset-0">
-                    <Image src="/bg-terrace.png" alt='Background Terrace' layout="fill" objectFit="cover" quality={100} />
+                    <Image placeholder="blur" src="/bg-terrace.png" blurDataURL="/bg-terrace-blur.webp" alt='Background Terrace' layout="fill" objectFit="cover" quality={100} />
                 </div>
                 <div className="sm:max-w-7xl mx-auto relative z-20 py-[146px] sm:py-[220px] lg:py-[258px] px-10 sm:px-20 xl:px-10">
                     <h1 className="sm:max-w-[35rem] text-white text-3xl sm:text-5xl lg:text-[56px] font-medium leading-[1.2]">Lançamento Terrace Residence</h1>
@@ -39,7 +39,7 @@ export default function CustomCarousel() {
         {
             id: 3, content: <div className="relative">
                 <div className="absolute inset-0">
-                    <Image src="/bg-altos.png" alt='Background Altos do Borgo' layout="fill" objectFit="cover" quality={100} />
+                    <Image placeholder="blur" src="/bg-altos.png" blurDataURL="/bg-altos-blur.webp" alt='Background Altos do Borgo' layout="fill" objectFit="cover" quality={100} />
                 </div>
                 <div className="absolute right-[370px] top-[200px] hidden xl:block">
                     <Image src="/bullet-banner.png" alt='Background Altos do Borgo' width={400} height={600} quality={100} />
